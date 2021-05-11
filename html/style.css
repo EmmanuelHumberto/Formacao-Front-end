@@ -1,3 +1,28 @@
+/*REPRESENTAÇÂO DE CORES CSS EXADECIMAL
+RGB:
+RED  = #FF0000
+GREEN = #00FF00
+BLUE = #0000FF
+
+# R_ R_ G_ G_ B_ B_ 
+ 
+    0 = Ausencia de cor
+    #000000
+
+    F = maximo de cor
+    #FFFFFF
+
+REPRESENTAÇÂO DE CORES CSS DECIMAL
+
+rgb(255;255;255)
+
+RED  = rgb(255;0;0)
+GREEN = rgb(0;255;0)
+YELlOW= rgb(0;0;255)
+
+    0 = Ausencia de cor
+    255 = maximo de cor*/
+
 body {
     background: #CCCCCC;
 }
@@ -11,5 +36,5 @@ p {
 }
 
 em strong {
-    color: red;
+    color: rgb(255, 0, 0);
 }
